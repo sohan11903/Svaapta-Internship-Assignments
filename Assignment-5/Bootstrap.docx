@@ -1,0 +1,31 @@
+﻿Problem Definitions for Bootstrap
+1. Grid System Practical. Create web page as given at image file attached.
+a. Make sub item in Service Menu as follows:
+i. Software development
+ii. Website Development
+iii. Android Application
+iv. iOS Application
+b. First section: 
+i. Must be on left side of page.
+ii. Make heading like “User Information” 
+iii. First name, Last name   (Make this field in first row)
+iv. Email, Contact No (Make this field in second row) 
+v. Save and cancel button (Make this field in third row)
+c. Second Section:
+i. Second section:  make heading like “Customer Information” 
+ii. First name , Last name, (Make this field in first row) 
+iii. Address  (Make this field in second row)
+iv. Save and cancel button (Make this field in third row)
+d. Third section: 
+i. First row Make  8 textbox
+ii. Second and third row 6 textbox 
+iii. Make merge last two columns for second and third row. Make textbox area on this column
+e. Forth Section:
+i. Make Dropdown with Dropdown header and Items. 
+ii. Make some item are disable.
+
+2. Full Bootstrap Practical
+a. Design above page using bootstrap.
+b. HTML has to be look alike as in PSD.  (Use PSD HTML)
+c. Make this page responsive using bootstrap.
+

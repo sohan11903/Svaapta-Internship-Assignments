@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-center-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Work Sans", serif;
+}
+nav {
+    background-color: rgb(26, 50, 73);
+}
+#navDet {
+    display: flex;
+    list-style-type: none;
+}
+#navDet li {
+    padding: 15px;
+    border-bottom: 5px solid rgb(26, 50, 73);
+}
+#navDet li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.right {
+    margin-right: 60px;
+}
+.left {
+    margin-left: 150px;
+}
+.left p span {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.left #up {
+    font-weight: 200;
+    color: white;
+    font-size: 20px;
+}
+.left #down {
+    color: white;
+    font-size: 10px;
+}
+#navDet li:hover {
+    background-color: rgb(32, 36, 54);
+    border-bottom: 3px solid silver;
+}
+.midarea {
+    height: 400px;
+    background-color: rgba(3, 100, 8, 0.664)
+}
+.sleft #top {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.sleft #bottom {
+    margin-top: 20px;
+    color: white;
+    font-weight: 300;
+}
+.sleft .btn { font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    font-size: 11px;
+    width: max-content;
+    padding: 5px;
+    border: 2px solid white;
+}
+main {
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+#left,
+#right {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgb(44, 119, 63);
+    border-radius: 5PX;
+}
+#left {
+    margin-left: 300px;
+}
+#right {
+    margin-right: 300px;
+}
+main i {
+    color: white;
+    font-size: 30px;
+    margin: 260px 250px;
+}
+.third {
+    height: 160px;
+    gap: 1rem;
+}
+.third #tup {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.third #tdown {
+    text-align: center;
+    font-weight: 200;
+}
+.four {
+    background-color: rgb(226, 225, 225);
+    height: 550px;
+}
+.container {
+    gap: 2rem;
+}
+.container .one {
+    margin-top: 30px;
+    font-weight: bold;
+    display: flex;
+    color: grey;
+    gap: 1rem;
+    font-size: 2rem;
+}
+.container .two {
+    text-align: center;
+    font-weight: 200;
+    font-size: 13px;
+}
+.container .three {
+    gap: 4rem;
+}
+.container .three .cir {
+    gap: 0.5rem;
+}
+.container .three .cir .incir {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 1px 13px 1px grey;
+}
+.container .three .cir .incir img {
+    height: 70px;
+    width: 70px;
+    border-radius: 25%;
+    object-fit: cover;
+}
+.container .three .cir .fup {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+.container .three .cir .fdown {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+.container .three .cir .abtn {
+    margin-top: 10px;
+    background-color: rgb(182, 176, 176);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 300;
+    border-bottom: 2px solid gray;
+}
+.container .three .cir .abtn:hover {
+    background-color: rgb(72, 125, 194);
+    color: white;
+}
+.container .note {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: rgb(182, 176, 176);
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+}
+.container .note p {
+    font-weight: 300;
+}
+.container .note p span {
+    font-weight: 500;
+}
+.five {
+    background-color: rgb(31, 31, 73);
+    gap: 4rem;
+    padding: 3rem;
+}
+.five .icon {
+    gap: 1rem;
+}
+.five .icon i {
+    font-size: 3.5rem; 
+    color: white;
+}
+.five .icon p span {
+    color: white;
+    font-weight: bold;
+}
+.five .icon p  {
+    color: white;
+    margin-bottom: -10px; 
+}
+.six {
+    gap: 2rem;
+    margin-top: 20px;
+    height: 630px;
+}
+.six .six1 {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+.six .six1 i {
+    font-size: 2.3rem;
+}
+.six .six2 {
+    color: gray;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.six .six3 {
+    color: gray;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.six3 span {
+    color: rgb(68, 142, 185);
+}
+.six .six4 {
+    display: flex;
+    gap: 1rem;
+}
+.six .six4 div {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+.six .six4 div div img {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+}
+.six .six5 {
+    background-color: rgb(182, 176, 176);
+    border-bottom: 2px solid gray;
+    width: 300px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 300;
+}
+.hexagon {
+    position: relative;
+    width: 50px;
+    height: 54.64px;
+    background-color: #3498db;
+    margin: 17.32px 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      overflow: hidden;
+}
+.hexagon img{
+    width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+.hexagon:before,
+.hexagon:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+.hexagon:before {
+    top: -17.32px;
+    border-bottom: 17.32px solid #3498db;
+}
+.hexagon:after {
+    bottom: -17.32px;
+    border-top: 17.32px solid #3498db;
+}
+.seven{
+    height: 350px;
+    background-color: rgba(3, 100, 8, 0.664);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.sev{
+    padding: 20px;
+    width: 60%;
+    height: 210px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.sev div{
+    gap: 0.6rem;
+}
+.sev div i{
+    color: white;
+    font-size: 3rem;
+}
+.sev div #pfp{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+ }
+ .sev div #pfn{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .seven .anc{
+    color: white;
+    font-size: 1.3rem;
+ }
+ .eight{
+    gap: 1rem;
+    color: gray;
+ }
+ .eight .ed1{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+ }
+ .eight .ed2{
+    text-align: center;
+    font-size: 0.8rem;
+ }
+ .eight .ed3 p{
+    font-size: 1.2rem;
+ }
+ .eight .ed3 span{
+    color: rgb(87, 127, 173);
+ }
+.eight .ed4 img{
+    height: 150px;
+    width: 350px;
+    object-fit: cover;
+}
+.eight .ed5 .e1{
+    text-align: center;
+    font-weight: bold;
+}
+.eight .ed5 .e2{
+    text-align: center;
+}
+.eight .ed6{
+    text-align: center;
+    font-size: 0.8rem;
+}
+.eight .ed7 div{
+    gap: 10px;
+    background-color: rgb(201, 194, 194);
+    border-bottom: 2px solid gray;
+    height: 30px;
+    width: 120px;
+    color: rgb(82, 79, 79);
+    border-radius: 5px;
+}
+.eight .ed7 div #diff{
+    color: green;
+}
+.eight .ed8{
+    gap: 1rem;
+    background-color: rgb(235, 230, 230);
+    padding: 5px;
+    border-radius: 3px;
+    border-bottom: 2px solid gray;
+}
+.eight .ed8 .ed81{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.eight .ed8 .ed82{
+    font-size: 0.8rem;
+}
+.eight .ed8 .ed83{
+    background-color: rgb(93, 202, 238);
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    font-weight: bold;
+}
+hr{
+    width: 600px;
+    color: gray;
+    font-weight: 200;
+}
+.nine{
+    margin-top: 10px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    gap: 2rem;
+    padding: 10px;
+}
+.d9{
+    border-radius: 20px;
+    width: 11%;
+    height: 100px;
+    padding: 10px;
+}
+.nine .nd1 {
+    background-color: rgb(99, 99, 231);
+    transition: transform 0.3s ease;
+}
+.nine .nd1:hover {
+    transform: translateY(-10px); 
+}
+.nine .nd2:hover {
+    transform: translateY(-10px); 
+}
+.nine .nd3:hover {
+    transform: translateY(-10px); 
+}
+.nine .nd4:hover {
+    transform: translateY(-10px); 
+}
+.nine .nd2{
+    background-color: rgb(53, 182, 241);
+}
+.nine .nd3{
+    background-color: rgb(224, 86, 61);
+}
+.nine .nd4{
+    background-color: orange;
+}
+.nine .d9 .nd91{
+    font-size: 2.3rem;
+}
+.nine .d9 .nd92{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nine .d9 .nd93 span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nine .d9 .nd93{
+    font-size: 0.8rem;
+}
+.ten{
+    margin-top: 20px;
+    color: grey;
+    gap: 1.3rem;
+}
+.ten .td1{
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ten .td2{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.ten .td2 span{
+    color: rgb(55, 55, 240);
+}
+.ten .td3 .form1{
+    gap: 1rem;
+}
+.ten .td3 .form2{
+    margin-top: 1rem;
+}
+.ten .td3 .form2 input{
+    height: 100px;
+    width: 100%;
+}
+.ten .td4{
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    align-items: center;
+}
+.ten .td4 .call1 span{
+    color: #3498db;
+}
+.ten .td4 .call2{
+    background-color: #3498db;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+#brgr{
+    background-color: black;
+    margin-top:10px;  
+    margin-bottom: -10px;
+}
+.gr2{  
+    background-color: rgb(69, 70, 70);
+    padding: 40px;
+}
+.gr2 .gr21{
+    color: white;
+    font-size: 1.7rem;
+}
+.gr2 .gr22{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    background-color: white;
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    color: gray;
+}
+.gr2 .gr22 i{
+    margin-left: 30px;
+    font-size: 1.3rem;
+    
+}
+.gr2 .gr22 input{
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 200;
+    
+}
+.gr2 .gr23{
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    font-size: 1rem;
+}
+.gr2 .gr24{
+    margin-top: 30px;
+    background-color: rgb(84, 192, 41);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 130px;
+    text-align: center;
+    color: white;
+}
+.last{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    gap: 1rem;
+}
+.last .lst1{
+    text-align: center;
+}
+.last i{
+    color: red;
+}
+.last span{
+    font-weight: bold;
+}
+.last .lst2{
+    color: greenyellow;
+}
+.last .lst3 i{
+    color: gray;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,36 @@
+.minimal-border {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+input {
+    width: 100%;
+}
+.txtarea {
+    position: relative;
+    bottom: 30px;
+    height: 58px;
+}
+.dropdown-menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.can{
+    margin-left: 22px;
+}
+textarea {
+    height: 100%;
+    resize: vertical;
+    width: 100%;
+}
+.ser,.tut{
+    margin-bottom: 10px;
+}
+#userAdd{
+    width: 104%;
+}
