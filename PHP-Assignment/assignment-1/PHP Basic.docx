@@ -1,0 +1,22 @@
+﻿Problem Definitions for PHP Basic
+1. String Programming
+a. Create a form to ask user to enter a string
+b. Submit the form.
+c. Print number of characters in string
+d. Print Number of Vowels, Consonants, Digits and White Space Character
+e. Find the number of occurrences of ‘a’ in entered string.
+
+
+2. Prime number program 
+a. Print all prime number from 1-100
+
+3. List Leap years
+a. Print all Leap years between  2000-3000
+
+4. Largest element in array
+a. Create an array of random number between 1-100
+b. Print the Largest number from array
+
+5. Sort an array
+a. Create an array of random number between 1-100
+b. Sort them using Loop but not using sort function of php.

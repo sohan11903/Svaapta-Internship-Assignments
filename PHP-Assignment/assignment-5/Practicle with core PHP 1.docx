@@ -1,0 +1,57 @@
+Practice with Core PHP
+Time duration: 3.5 hours
+
+Create a form that allows users to input their data. ---> done
+First Name* - textbox
+Last name - textbox
+Email id* - textbox
+Gender - radio button
+Address line 1* - textbox 
+Address line 2- textbox
+Country* - dropdown
+State* - dropdown
+City* - dropdown
+Technology -  checkbox
+Username* - textbox
+Password - textbox
+Profile Pic - file 
+
+
+Requirements:
+- Create database and table using MySQL as per the form fields.  ---> done
+
+- The star symbol indicates the mandatory fields. So perform validation on that using jQuery and display the proper validation message.  ---> done
+- Also, check if the user entered the proper email format ---> done
+
+- List down a minimum of 5 technologies in the form, and the user can select multiple technologies.  ---> done
+- Country drop-down data will be populated from the database.  ---> done
+
+- The state will come after the selected country, and the city will come after the selected state (Using ajax calls) ---> done
+- Write PHP code to insert user data into the table upon form submission. ---> done
+
+- Write a PHP script to retrieve and display all user records from the "users" table.
+   Name (combination of first name and last name)
+   Email id
+   Gender
+   Address(combination of address line 1, address line 2, city, state, country)
+   Technology (display comma separte if there is multiple technologies)
+    Username  ---> done
+
+- Display the edit and delete buttons in the user listing for each record. ---> done
+
+- Allow the user to edit their record. ---> done
+
+- Allow the user to delete their record. ---> done
+
+- Allow only .jpeg,.jpg and .png  ---> done
+
+- DIsplay profile pic in edit form and If user select another profile pic then It should replace with new pic.  ---> done
+- Display the user count on top of the listing. ---> done
+
+- The user can search records in the user listing. For that, add one textbox and a button for the search record on top of the listing. Click on the submit button, display the data as per the textbox value. The search will perform on the user's first and last name. Put one clear link, click on that clear textbox value, and display all records. ---> done
+
+- Implement error handling for database connection issues and display appropriate error messages to users. ---> done
+
+- Comment on your code and provide a brief explanation of how their code works. ---> done
+
+- Apply proper naming conventions for variables, functions, and classes. ---> done

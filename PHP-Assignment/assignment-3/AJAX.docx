@@ -1,0 +1,14 @@
+﻿Problem Definitions for AJAX
+1. Make a database table of ‘country’.
+a. Add 4 countries.
+2. Make a database table of ‘state’. 
+a.  State must reference to their relevant row in country table.
+b. Add 3 states per countries.
+3. Make a database table of ‘city. 
+a.  City must reference to their relevant row in state and country table.
+b. Add 3 cities per state.
+4. List all countries in dropdown.
+5. List all states of selected country using simple Ajax, when a country is changed.
+a. Selection box of states should get blank when no country is selected.
+6. List all cities of selected state using jQuery and Ajax, when a state is changed.
+a. Selection box of cities should get blank when no country and/or state is selected.

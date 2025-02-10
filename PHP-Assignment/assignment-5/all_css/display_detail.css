@@ -1,0 +1,171 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}
+
+.search-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.search-form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-form button:hover {
+    background-color: #45a049;
+}
+
+.search-form a {
+    display: block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.search-form a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 97%;
+    margin: 5px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    table-layout: fixed; /* Ensures a fixed layout and prevents overflow */
+}
+
+th, td {
+    padding: 12px 10px;
+    text-align: left;
+    font-size: 14px;
+    word-wrap: break-word; /* Ensures long text wraps instead of overflowing */
+}
+th{
+   text-align: center; 
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+}
+
+td.sametd {
+    color: #555;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td.sametd img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+td.action-buttons {
+    width: auto;
+    white-space: nowrap; /* Prevents button text from wrapping */
+    text-align: center;  /* Centers the action buttons */
+    border: 2px solid #ddd;
+}
+
+.edit, .view, .delete {
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.edit {
+    background-color: blue;
+}
+
+.delete {
+    background-color: red;
+}
+
+.view {
+    background-color: green;
+}
+
+.edit:hover {
+    background-color: darkblue;
+}
+
+.delete:hover {
+    background-color: darkred;
+}
+
+.view:hover {
+    background-color: darkgreen;
+}
+
+/* Column Width Adjustments */
+table th:nth-child(1), td:nth-child(1) {
+    width: 15%; /* Adjust column width for Full Name */
+}
+
+table th:nth-child(2), td:nth-child(2) {
+    width: 15%; /* Adjust column width for Email */
+}
+
+table th:nth-child(3), td:nth-child(3) {
+    width: 10%; /* Adjust column width for Gender */
+}
+
+table th:nth-child(4), td:nth-child(4) {
+    width: 20%; /* Adjust column width for Address */
+}
+
+table th:nth-child(5), td:nth-child(5) {
+    width: 15%; /* Adjust column width for Technology */
+}
+
+table th:nth-child(6), td:nth-child(6) {
+    width: 10%; /* Adjust column width for Username */
+}
+
+table th:nth-child(7), td:nth-child(7) {
+    width: 8%; /* Adjust column width for Profile Picture */
+}
+
+table th:nth-child(8), td:nth-child(8) {
+    width: 16%; /* Adjust column width for Action Buttons */
+}

@@ -1,0 +1,21 @@
+﻿Problem Definition for MySql
+1. Create a database – ‘registration_trainee’
+2. Create a table ‘Department’ with following fields:
+a. ID (Primary key)
+b. Name 
+
+3. Add one field for the Department in registration form
+a. Which will be combo box containing list of departments added in ‘Department’ 
+
+
+4. Create a Table ‘Employee’ with following fields:
+a. ID (Primary key)
+b. Every field of registration form.
+c. For profile picture, store the location where file has been uploaded.
+
+
+5. Create a page which will list all employees with following details:
+a. Full Name.
+b. Name of Department s/he is working.
+c. Link to edit their registration details where he should be able to update his details.
+d. Listing must be in ascending order of First name.

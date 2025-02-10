@@ -1,0 +1,25 @@
+﻿Problem Definitions for PHP Advance
+1. Create a  User Registration Form with following details:
+a. First Name
+b. Middle Name
+c. Last Name
+d. Year Born – Combo Box with List of Years  from 1980 – current year
+e. Email Address
+f. Password
+g. Confirm Password
+h. Profile Picture
+i. Capture Date & time when form submitted.
+2. Apply server side validations:
+a. All fields are mandatory except middle name.
+b. Do not allow any special character or space for First/Middle/Last name
+c. Email address must be in proper format.
+d. Password must have at least 8 characters.
+e. Password and confirm password should match.
+f. Profile picture:
+i. Do not allow to upload a file with more than 1 mb of size
+ii. Do not allow to upload a file having extensions other than jpg/png/jpeg.
+g. During display of errors, the data entered by user for each field must be present on their respective filed.
+3. Once Validation completed, create a session as an array for each variable.
+4. Mail to user who has submitted the form.
+5. Display all details on other page using session along with profile picture. 
+a. Date should be displayed in ‘29 Apr 2014’ format;

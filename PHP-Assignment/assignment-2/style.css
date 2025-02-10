@@ -1,0 +1,135 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Error Message */
+.error {
+    background: #ffdddd;
+    color: #d9534f;
+    padding: 10px;
+    border-left: 4px solid #d9534f;
+    margin-bottom: 15px;
+}
+
+/* Form Inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* File Upload */
+input[type="file"] {
+    border: none;
+}
+
+/* Buttons */
+.btns {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    
+}
+
+/* Add Button */
+.update {
+    background: #28a745;
+    color: white;
+}
+
+.update:hover {
+    background: #218838;
+}
+
+/* Cancel Button */
+.cancle a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.cancle {
+    background: #dc3545;
+}
+
+.cancle:hover {
+    background: #c82333;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
