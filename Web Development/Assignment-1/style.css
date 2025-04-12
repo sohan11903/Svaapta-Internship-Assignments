@@ -1,60 +1,200 @@
-*{
-    padding: 0;
+/* General Reset */
+* {
     margin: 0;
-}
-body{
-    background-color: grey;
-}
-h1{
-    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
-}
-.frame{
+  }
+  
+  /* Main Container */
+  .main {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  /* Form Frame */
+  .frame {
+    width: 100%;
+  }
+  
+  /* Form Styling */
+  form {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid white;
-    height: 400px;
-    width: 600px;
-    margin: auto;
-    border-radius: 40px;
-}
-.dep{
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #f1f1f1;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    animation: fadeInForm 0.8s ease-in-out;
+  }
+  
+  form:hover {
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+  }
+  
+  /* Department Section */
+  .form-group.dep {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.area{
-    padding: 40px;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 1rem;
+  }
+  
+  select {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1.5px solid #ccc;
+    transition: 0.3s;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+  }
+  
+  /* Grid Area */
+  .area {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.left{
+    gap: 20px;
+    justify-content: space-between;
+   
+  }
+  
+  .form-column {
     display: flex;
-    flex-flow: column;
-    gap: 10px;
-}
-.right{
-    display: flex;
-    flex-flow: column;
-    gap: 10px
-}
-.btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-button{
-    font-size: 20px;
-    width: 250px;
-    border-radius: 40px;
-}
-label{
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    min-width: 45%;
+  }
+  
+  /* Labels */
+  .lab {
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    padding-left: 15px;
+    margin-top: 22px;
+  }
+  
+  .lab::before {
+    content: "⬤";
+    color: #764ba2;
+    font-size: 9px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="file"] {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1.5px solid #ccc;
+    font-size: 0.95rem;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 8px rgba(102, 126, 234, 0.2);
+  }
+  
+  /* Button */
+  .btn {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
     font-weight: bold;
-    color: black
-}
-.lab{
-    color: black;
-}
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(118, 75, 162, 0.3);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    .form-grid {
+      flex-direction: column;
+    }
+  
+    .form-column {
+      min-width: 100%;
+    }
+  
+    .lab {
+      padding-left: 10px;
+    }
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInForm {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

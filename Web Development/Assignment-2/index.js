@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('button').click(function () {
+        event.preventDefault();
         var firstname = $('#fname').val().trim()
         var midname = $('#mname').val().trim()
         var lstname = $('#lname').val().trim()

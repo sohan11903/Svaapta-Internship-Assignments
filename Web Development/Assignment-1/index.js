@@ -18,7 +18,7 @@ document.getElementById('dept').addEventListener('change', function () {
     }
 });
 function getAns() {
-
+    event.preventDefault();
     let firstname = document.getElementById("fname").value.trim();
     let midname = document.getElementById("mname").value.trim();
     let lstname = document.getElementById("lname").value.trim();
